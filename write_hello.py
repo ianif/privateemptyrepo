@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """
 A simple Python script that writes 'Hello' to a text file.
+
+Author: DEMO
 """
 
 def write_hello_to_file(filename="output.txt", message="Hello"):
