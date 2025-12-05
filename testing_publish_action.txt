@@ -18,6 +18,7 @@ Testing Steps:
 Publish Actions:
 ----------------
 # PR Merged then Publish
+# 2nd Publish after 2nd PR
 1. Build the project artifacts
 2. Generate documentation
 3. Create release packages
