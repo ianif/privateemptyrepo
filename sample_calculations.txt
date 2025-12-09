@@ -1,0 +1,757 @@
+================================================================================
+GREEK FREELANCER TAX CALCULATOR
+SAMPLE CALCULATIONS AND WORKED EXAMPLES
+================================================================================
+
+This document provides detailed, step-by-step calculations for various income
+scenarios to help users understand how Greek freelancer taxes are computed.
+All calculations follow Greek tax law as of 2024.
+
+================================================================================
+TAX COMPONENTS OVERVIEW
+================================================================================
+
+Greek freelancers are subject to three main obligations:
+
+1. INCOME TAX (Progressive)
+   - Applied to taxable income (gross income - deductible expenses)
+   - Uses progressive brackets: 9%, 22%, 28%, 36%, 44%
+   - Only the income within each bracket is taxed at that rate
+
+2. VAT (Value Added Tax)
+   - Fixed rate: 24%
+   - Applied to gross income
+   - Collected from clients and remitted to tax authorities
+   - NOT part of personal tax burden (pass-through tax)
+
+3. EFKA SOCIAL SECURITY
+   - Total rate: 20%
+   - Applied to gross income (before expense deductions)
+   - Breakdown:
+     * Main Insurance: 13.33%
+     * Additional Contributions: 6.67%
+   - Provides healthcare, pension, and social benefits
+
+================================================================================
+EXAMPLE 1: LOW INCOME - NO EXPENSES
+================================================================================
+
+SCENARIO: Entry-level freelancer with modest income and no business expenses
+
+INPUT PARAMETERS:
+  Gross Annual Income:                              €15,000.00
+  Deductible Business Expenses:                            €0.00
+  Payment Frequency:                                     Monthly
+
+──────────────────────────────────────────────────────────────────────────────
+STEP 1: CALCULATE TAXABLE INCOME
+──────────────────────────────────────────────────────────────────────────────
+
+  Gross Income                                      €15,000.00
+  Less: Deductible Expenses                              €0.00
+  ─────────────────────────────────────────────────────────────
+  Taxable Income                                    €15,000.00
+
+──────────────────────────────────────────────────────────────────────────────
+STEP 2: CALCULATE INCOME TAX (PROGRESSIVE BRACKETS)
+──────────────────────────────────────────────────────────────────────────────
+
+The €15,000 taxable income spans two tax brackets:
+
+  BRACKET 1: €0 - €10,000 @ 9%
+    Taxable amount in this bracket:                 €10,000.00
+    Tax calculation: €10,000.00 × 9%
+    Tax on this bracket:                               €900.00
+
+  BRACKET 2: €10,001 - €20,000 @ 22%
+    Remaining income after bracket 1:                €5,000.00
+    Taxable amount in this bracket:                  €5,000.00
+    Tax calculation: €5,000.00 × 22%
+    Tax on this bracket:                             €1,100.00
+
+  ─────────────────────────────────────────────────────────────
+  Total Income Tax:                                  €2,000.00
+  Effective Income Tax Rate: €2,000 ÷ €15,000 =        13.33%
+
+──────────────────────────────────────────────────────────────────────────────
+STEP 3: CALCULATE VAT
+──────────────────────────────────────────────────────────────────────────────
+
+  Gross Income:                                     €15,000.00
+  VAT Rate:                                              24.0%
+  VAT calculation: €15,000.00 × 24%
+  ─────────────────────────────────────────────────────────────
+  VAT Amount:                                        €3,600.00
+  
+  Total amount to invoice clients:                  €18,600.00
+  (You keep €15,000, remit €3,600 to authorities)
+
+──────────────────────────────────────────────────────────────────────────────
+STEP 4: CALCULATE SOCIAL SECURITY (EFKA)
+──────────────────────────────────────────────────────────────────────────────
+
+  Gross Income:                                     €15,000.00
+  
+  Main Insurance (13.33%):
+    €15,000.00 × 13.33%                              €1,999.50
+    
+  Additional Contributions (6.67%):
+    €15,000.00 × 6.67%                               €1,000.50
+  
+  ─────────────────────────────────────────────────────────────
+  Total EFKA Contribution:                           €3,000.00
+  (20% of gross income)
+
+──────────────────────────────────────────────────────────────────────────────
+STEP 5: CALCULATE TOTAL TAX BURDEN
+──────────────────────────────────────────────────────────────────────────────
+
+  Income Tax:                                        €2,000.00
+  EFKA Social Security:                              €3,000.00
+  ─────────────────────────────────────────────────────────────
+  Total Taxes to Pay:                                €5,000.00
+  
+  Effective Total Tax Rate: €5,000 ÷ €15,000 =         33.33%
+
+──────────────────────────────────────────────────────────────────────────────
+STEP 6: CALCULATE NET INCOME
+──────────────────────────────────────────────────────────────────────────────
+
+  Gross Income:                                     €15,000.00
+  Less: Total Taxes                                 -€5,000.00
+  ─────────────────────────────────────────────────────────────
+  Net Income (After Taxes):                         €10,000.00
+
+──────────────────────────────────────────────────────────────────────────────
+STEP 7: PAYMENT SCHEDULES
+──────────────────────────────────────────────────────────────────────────────
+
+MONTHLY PAYMENT SCHEDULE (12 payments):
+  Total Annual Tax:                                  €5,000.00
+  ÷ 12 months                                              12
+  ─────────────────────────────────────────────────────────────
+  Monthly Payment Amount:                              €416.67
+  
+  Payment #1:   €416.67      Payment #7:   €416.67
+  Payment #2:   €416.67      Payment #8:   €416.67
+  Payment #3:   €416.67      Payment #9:   €416.67
+  Payment #4:   €416.67      Payment #10:  €416.67
+  Payment #5:   €416.67      Payment #11:  €416.67
+  Payment #6:   €416.67      Payment #12:  €416.67
+
+QUARTERLY PAYMENT SCHEDULE (4 payments):
+  Total Annual Tax:                                  €5,000.00
+  ÷ 4 quarters                                              4
+  ─────────────────────────────────────────────────────────────
+  Quarterly Payment Amount:                          €1,250.00
+  
+  Q1 Payment:   €1,250.00
+  Q2 Payment:   €1,250.00
+  Q3 Payment:   €1,250.00
+  Q4 Payment:   €1,250.00
+
+ANNUAL PAYMENT SCHEDULE (1 payment):
+  Annual Payment Amount:                             €5,000.00
+
+──────────────────────────────────────────────────────────────────────────────
+SUMMARY - EXAMPLE 1
+──────────────────────────────────────────────────────────────────────────────
+
+  Gross Annual Income:                              €15,000.00
+  Deductible Expenses:                                    €0.00
+  Taxable Income:                                   €15,000.00
+  
+  Income Tax:                                        €2,000.00
+  EFKA Social Security:                              €3,000.00
+  Total Taxes:                                       €5,000.00
+  
+  Net Income:                                       €10,000.00
+  Effective Tax Rate:                                   33.33%
+  
+  VAT to Collect:                                    €3,600.00
+
+
+================================================================================
+EXAMPLE 2: MEDIUM INCOME - WITH MODERATE EXPENSES
+================================================================================
+
+SCENARIO: Established freelancer with moderate income and business expenses
+
+INPUT PARAMETERS:
+  Gross Annual Income:                              €35,000.00
+  Deductible Business Expenses:                      €5,000.00
+  Payment Frequency:                                   Quarterly
+
+──────────────────────────────────────────────────────────────────────────────
+STEP 1: CALCULATE TAXABLE INCOME
+──────────────────────────────────────────────────────────────────────────────
+
+  Gross Income                                      €35,000.00
+  Less: Deductible Expenses                         -€5,000.00
+  ─────────────────────────────────────────────────────────────
+  Taxable Income                                    €30,000.00
+
+──────────────────────────────────────────────────────────────────────────────
+STEP 2: CALCULATE INCOME TAX (PROGRESSIVE BRACKETS)
+──────────────────────────────────────────────────────────────────────────────
+
+The €30,000 taxable income spans three tax brackets:
+
+  BRACKET 1: €0 - €10,000 @ 9%
+    Taxable amount in this bracket:                 €10,000.00
+    Tax calculation: €10,000.00 × 9%
+    Tax on this bracket:                               €900.00
+
+  BRACKET 2: €10,001 - €20,000 @ 22%
+    Taxable amount in this bracket:                 €10,000.00
+    Tax calculation: €10,000.00 × 22%
+    Tax on this bracket:                             €2,200.00
+
+  BRACKET 3: €20,001 - €30,000 @ 28%
+    Taxable amount in this bracket:                 €10,000.00
+    Tax calculation: €10,000.00 × 28%
+    Tax on this bracket:                             €2,800.00
+
+  ─────────────────────────────────────────────────────────────
+  Total Income Tax:                                  €5,900.00
+  Effective Income Tax Rate: €5,900 ÷ €30,000 =        19.67%
+
+──────────────────────────────────────────────────────────────────────────────
+STEP 3: CALCULATE VAT
+──────────────────────────────────────────────────────────────────────────────
+
+  Gross Income:                                     €35,000.00
+  VAT Rate:                                              24.0%
+  VAT calculation: €35,000.00 × 24%
+  ─────────────────────────────────────────────────────────────
+  VAT Amount:                                        €8,400.00
+  
+  Total amount to invoice clients:                  €43,400.00
+
+──────────────────────────────────────────────────────────────────────────────
+STEP 4: CALCULATE SOCIAL SECURITY (EFKA)
+──────────────────────────────────────────────────────────────────────────────
+
+  NOTE: EFKA is calculated on GROSS income, not taxable income!
+  
+  Gross Income:                                     €35,000.00
+  
+  Main Insurance (13.33%):
+    €35,000.00 × 13.33%                              €4,665.50
+    
+  Additional Contributions (6.67%):
+    €35,000.00 × 6.67%                               €2,334.50
+  
+  ─────────────────────────────────────────────────────────────
+  Total EFKA Contribution:                           €7,000.00
+
+──────────────────────────────────────────────────────────────────────────────
+STEP 5: CALCULATE TOTAL TAX BURDEN
+──────────────────────────────────────────────────────────────────────────────
+
+  Income Tax:                                        €5,900.00
+  EFKA Social Security:                              €7,000.00
+  ─────────────────────────────────────────────────────────────
+  Total Taxes to Pay:                               €12,900.00
+  
+  Effective Total Tax Rate: €12,900 ÷ €35,000 =        36.86%
+
+──────────────────────────────────────────────────────────────────────────────
+STEP 6: CALCULATE NET INCOME
+──────────────────────────────────────────────────────────────────────────────
+
+  Gross Income:                                     €35,000.00
+  Less: Total Taxes                                -€12,900.00
+  ─────────────────────────────────────────────────────────────
+  Net Income (After Taxes):                         €22,100.00
+
+──────────────────────────────────────────────────────────────────────────────
+STEP 7: PAYMENT SCHEDULES
+──────────────────────────────────────────────────────────────────────────────
+
+MONTHLY PAYMENT SCHEDULE (12 payments):
+  Total Annual Tax:                                 €12,900.00
+  ÷ 12 months
+  ─────────────────────────────────────────────────────────────
+  Monthly Payment Amount:                            €1,075.00
+
+QUARTERLY PAYMENT SCHEDULE (4 payments):
+  Total Annual Tax:                                 €12,900.00
+  ÷ 4 quarters
+  ─────────────────────────────────────────────────────────────
+  Quarterly Payment Amount:                          €3,225.00
+  
+  Q1 Payment:   €3,225.00
+  Q2 Payment:   €3,225.00
+  Q3 Payment:   €3,225.00
+  Q4 Payment:   €3,225.00
+
+ANNUAL PAYMENT SCHEDULE (1 payment):
+  Annual Payment Amount:                            €12,900.00
+
+──────────────────────────────────────────────────────────────────────────────
+TAX SAVINGS FROM EXPENSES
+──────────────────────────────────────────────────────────────────────────────
+
+  Without expense deductions:
+    Taxable income would be:                        €35,000.00
+    Income tax would be:                             €8,200.00
+  
+  With €5,000 expense deductions:
+    Taxable income:                                 €30,000.00
+    Income tax:                                      €5,900.00
+  
+  ─────────────────────────────────────────────────────────────
+  Tax Savings from Expenses:                         €2,300.00
+  
+  This represents a 46% return on expenses!
+  (€2,300 saved ÷ €5,000 expenses = 46%)
+
+──────────────────────────────────────────────────────────────────────────────
+SUMMARY - EXAMPLE 2
+──────────────────────────────────────────────────────────────────────────────
+
+  Gross Annual Income:                              €35,000.00
+  Deductible Expenses:                               €5,000.00
+  Taxable Income:                                   €30,000.00
+  
+  Income Tax:                                        €5,900.00
+  EFKA Social Security:                              €7,000.00
+  Total Taxes:                                      €12,900.00
+  
+  Net Income:                                       €22,100.00
+  Effective Tax Rate:                                   36.86%
+  
+  VAT to Collect:                                    €8,400.00
+
+
+================================================================================
+EXAMPLE 3: HIGH INCOME - WITH SUBSTANTIAL EXPENSES
+================================================================================
+
+SCENARIO: Successful freelancer with high income and significant business costs
+
+INPUT PARAMETERS:
+  Gross Annual Income:                              €60,000.00
+  Deductible Business Expenses:                     €10,000.00
+  Payment Frequency:                                      Annual
+
+──────────────────────────────────────────────────────────────────────────────
+STEP 1: CALCULATE TAXABLE INCOME
+──────────────────────────────────────────────────────────────────────────────
+
+  Gross Income                                      €60,000.00
+  Less: Deductible Expenses                        -€10,000.00
+  ─────────────────────────────────────────────────────────────
+  Taxable Income                                    €50,000.00
+
+──────────────────────────────────────────────────────────────────────────────
+STEP 2: CALCULATE INCOME TAX (PROGRESSIVE BRACKETS)
+──────────────────────────────────────────────────────────────────────────────
+
+The €50,000 taxable income spans all five tax brackets:
+
+  BRACKET 1: €0 - €10,000 @ 9%
+    Taxable amount in this bracket:                 €10,000.00
+    Tax calculation: €10,000.00 × 9%
+    Tax on this bracket:                               €900.00
+
+  BRACKET 2: €10,001 - €20,000 @ 22%
+    Taxable amount in this bracket:                 €10,000.00
+    Tax calculation: €10,000.00 × 22%
+    Tax on this bracket:                             €2,200.00
+
+  BRACKET 3: €20,001 - €30,000 @ 28%
+    Taxable amount in this bracket:                 €10,000.00
+    Tax calculation: €10,000.00 × 28%
+    Tax on this bracket:                             €2,800.00
+
+  BRACKET 4: €30,001 - €40,000 @ 36%
+    Taxable amount in this bracket:                 €10,000.00
+    Tax calculation: €10,000.00 × 36%
+    Tax on this bracket:                             €3,600.00
+
+  BRACKET 5: €40,001+ @ 44%
+    Taxable amount in this bracket:                 €10,000.00
+    Tax calculation: €10,000.00 × 44%
+    Tax on this bracket:                             €4,400.00
+
+  ─────────────────────────────────────────────────────────────
+  Total Income Tax:                                 €13,900.00
+  Effective Income Tax Rate: €13,900 ÷ €50,000 =       27.80%
+  
+  NOTE: Even though income reaches the 44% bracket, the effective
+        rate is much lower because only €10,000 is taxed at 44%.
+
+──────────────────────────────────────────────────────────────────────────────
+STEP 3: CALCULATE VAT
+──────────────────────────────────────────────────────────────────────────────
+
+  Gross Income:                                     €60,000.00
+  VAT Rate:                                              24.0%
+  VAT calculation: €60,000.00 × 24%
+  ─────────────────────────────────────────────────────────────
+  VAT Amount:                                       €14,400.00
+  
+  Total amount to invoice clients:                  €74,400.00
+
+──────────────────────────────────────────────────────────────────────────────
+STEP 4: CALCULATE SOCIAL SECURITY (EFKA)
+──────────────────────────────────────────────────────────────────────────────
+
+  Gross Income:                                     €60,000.00
+  
+  Main Insurance (13.33%):
+    €60,000.00 × 13.33%                              €7,998.00
+    
+  Additional Contributions (6.67%):
+    €60,000.00 × 6.67%                               €4,002.00
+  
+  ─────────────────────────────────────────────────────────────
+  Total EFKA Contribution:                          €12,000.00
+
+──────────────────────────────────────────────────────────────────────────────
+STEP 5: CALCULATE TOTAL TAX BURDEN
+──────────────────────────────────────────────────────────────────────────────
+
+  Income Tax:                                       €13,900.00
+  EFKA Social Security:                             €12,000.00
+  ─────────────────────────────────────────────────────────────
+  Total Taxes to Pay:                               €25,900.00
+  
+  Effective Total Tax Rate: €25,900 ÷ €60,000 =        43.17%
+
+──────────────────────────────────────────────────────────────────────────────
+STEP 6: CALCULATE NET INCOME
+──────────────────────────────────────────────────────────────────────────────
+
+  Gross Income:                                     €60,000.00
+  Less: Total Taxes                                -€25,900.00
+  ─────────────────────────────────────────────────────────────
+  Net Income (After Taxes):                         €34,100.00
+
+──────────────────────────────────────────────────────────────────────────────
+STEP 7: PAYMENT SCHEDULES
+──────────────────────────────────────────────────────────────────────────────
+
+MONTHLY PAYMENT SCHEDULE (12 payments):
+  Total Annual Tax:                                 €25,900.00
+  ÷ 12 months
+  ─────────────────────────────────────────────────────────────
+  Monthly Payment Amount:                            €2,158.33
+
+QUARTERLY PAYMENT SCHEDULE (4 payments):
+  Total Annual Tax:                                 €25,900.00
+  ÷ 4 quarters
+  ─────────────────────────────────────────────────────────────
+  Quarterly Payment Amount:                          €6,475.00
+
+ANNUAL PAYMENT SCHEDULE (1 payment):
+  Annual Payment Amount:                            €25,900.00
+
+──────────────────────────────────────────────────────────────────────────────
+TAX SAVINGS FROM EXPENSES
+──────────────────────────────────────────────────────────────────────────────
+
+  Without expense deductions:
+    Taxable income would be:                        €60,000.00
+    Income tax would be:                            €17,700.00
+  
+  With €10,000 expense deductions:
+    Taxable income:                                 €50,000.00
+    Income tax:                                     €13,900.00
+  
+  ─────────────────────────────────────────────────────────────
+  Tax Savings from Expenses:                         €3,800.00
+  
+  This represents a 38% return on expenses!
+
+──────────────────────────────────────────────────────────────────────────────
+SUMMARY - EXAMPLE 3
+──────────────────────────────────────────────────────────────────────────────
+
+  Gross Annual Income:                              €60,000.00
+  Deductible Expenses:                              €10,000.00
+  Taxable Income:                                   €50,000.00
+  
+  Income Tax:                                       €13,900.00
+  EFKA Social Security:                             €12,000.00
+  Total Taxes:                                      €25,900.00
+  
+  Net Income:                                       €34,100.00
+  Effective Tax Rate:                                   43.17%
+  
+  VAT to Collect:                                   €14,400.00
+
+
+================================================================================
+EXAMPLE 4: EDGE CASE - LOW INCOME WITH HIGH EXPENSE RATIO
+================================================================================
+
+SCENARIO: Freelancer with low income and high business expenses (startup phase)
+
+INPUT PARAMETERS:
+  Gross Annual Income:                              €12,000.00
+  Deductible Business Expenses:                      €9,000.00
+  Payment Frequency:                                     Monthly
+
+──────────────────────────────────────────────────────────────────────────────
+STEP 1: CALCULATE TAXABLE INCOME
+──────────────────────────────────────────────────────────────────────────────
+
+  Gross Income                                      €12,000.00
+  Less: Deductible Expenses                         -€9,000.00
+  ─────────────────────────────────────────────────────────────
+  Taxable Income                                     €3,000.00
+  
+  NOTE: Very low taxable income due to high expense ratio (75%)
+
+──────────────────────────────────────────────────────────────────────────────
+STEP 2: CALCULATE INCOME TAX (PROGRESSIVE BRACKETS)
+──────────────────────────────────────────────────────────────────────────────
+
+The €3,000 taxable income falls entirely within the first bracket:
+
+  BRACKET 1: €0 - €10,000 @ 9%
+    Taxable amount in this bracket:                  €3,000.00
+    Tax calculation: €3,000.00 × 9%
+    Tax on this bracket:                               €270.00
+
+  ─────────────────────────────────────────────────────────────
+  Total Income Tax:                                    €270.00
+  Effective Income Tax Rate: €270 ÷ €3,000 =             9.00%
+
+──────────────────────────────────────────────────────────────────────────────
+STEP 3: CALCULATE VAT
+──────────────────────────────────────────────────────────────────────────────
+
+  Gross Income:                                     €12,000.00
+  VAT Rate:                                              24.0%
+  VAT calculation: €12,000.00 × 24%
+  ─────────────────────────────────────────────────────────────
+  VAT Amount:                                        €2,880.00
+  
+  Total amount to invoice clients:                  €14,880.00
+
+──────────────────────────────────────────────────────────────────────────────
+STEP 4: CALCULATE SOCIAL SECURITY (EFKA)
+──────────────────────────────────────────────────────────────────────────────
+
+  IMPORTANT: EFKA is calculated on GROSS income, not taxable income!
+             This can be a significant burden for low-margin businesses.
+  
+  Gross Income:                                     €12,000.00
+  
+  Main Insurance (13.33%):
+    €12,000.00 × 13.33%                              €1,599.60
+    
+  Additional Contributions (6.67%):
+    €12,000.00 × 6.67%                                 €800.40
+  
+  ─────────────────────────────────────────────────────────────
+  Total EFKA Contribution:                           €2,400.00
+  
+  NOTE: EFKA of €2,400 is 80% of your taxable income of €3,000!
+
+──────────────────────────────────────────────────────────────────────────────
+STEP 5: CALCULATE TOTAL TAX BURDEN
+──────────────────────────────────────────────────────────────────────────────
+
+  Income Tax:                                          €270.00
+  EFKA Social Security:                              €2,400.00
+  ─────────────────────────────────────────────────────────────
+  Total Taxes to Pay:                                €2,670.00
+  
+  Effective Total Tax Rate: €2,670 ÷ €12,000 =         22.25%
+  
+  NOTE: While the rate seems low on gross income, it's 89% of
+        your taxable income! This illustrates why EFKA can be
+        challenging for businesses with high expense ratios.
+
+──────────────────────────────────────────────────────────────────────────────
+STEP 6: CALCULATE NET INCOME
+──────────────────────────────────────────────────────────────────────────────
+
+  Gross Income:                                     €12,000.00
+  Less: Total Taxes                                 -€2,670.00
+  ─────────────────────────────────────────────────────────────
+  Net Income (After Taxes):                          €9,330.00
+  
+  After-tax margin: €9,330 ÷ €12,000 = 77.75%
+
+──────────────────────────────────────────────────────────────────────────────
+STEP 7: PAYMENT SCHEDULES
+──────────────────────────────────────────────────────────────────────────────
+
+MONTHLY PAYMENT SCHEDULE (12 payments):
+  Total Annual Tax:                                  €2,670.00
+  ÷ 12 months
+  ─────────────────────────────────────────────────────────────
+  Monthly Payment Amount:                              €222.50
+  
+  Payment #1:   €222.50      Payment #7:   €222.50
+  Payment #2:   €222.50      Payment #8:   €222.50
+  Payment #3:   €222.50      Payment #9:   €222.50
+  Payment #4:   €222.50      Payment #10:  €222.50
+  Payment #5:   €222.50      Payment #11:  €222.50
+  Payment #6:   €222.50      Payment #12:  €222.50
+
+QUARTERLY PAYMENT SCHEDULE (4 payments):
+  Total Annual Tax:                                  €2,670.00
+  ÷ 4 quarters
+  ─────────────────────────────────────────────────────────────
+  Quarterly Payment Amount:                            €667.50
+
+ANNUAL PAYMENT SCHEDULE (1 payment):
+  Annual Payment Amount:                             €2,670.00
+
+──────────────────────────────────────────────────────────────────────────────
+KEY INSIGHTS - EXAMPLE 4
+──────────────────────────────────────────────────────────────────────────────
+
+1. HIGH EXPENSE RATIO IMPACT:
+   - With 75% expenses (€9,000 / €12,000), taxable income drops to €3,000
+   - This significantly reduces income tax burden
+   
+2. EFKA BURDEN ON LOW-MARGIN BUSINESSES:
+   - EFKA is €2,400 on gross income
+   - This is 80% of the €3,000 taxable income
+   - EFKA cannot be reduced through expense deductions
+   
+3. CASH FLOW CONSIDERATIONS:
+   - Monthly tax payment of €222.50 is manageable
+   - But represents 22.25% of gross income
+   
+4. BUSINESS VIABILITY:
+   - Net income of €9,330 from €12,000 gross (77.75%)
+   - However, this includes the €9,000 already spent on expenses
+   - Actual take-home is effectively €330 (€12,000 - €9,000 - €2,670)
+   
+   This scenario illustrates why tracking expenses and managing
+   cash flow is critical for freelancers with high operating costs.
+
+──────────────────────────────────────────────────────────────────────────────
+SUMMARY - EXAMPLE 4
+──────────────────────────────────────────────────────────────────────────────
+
+  Gross Annual Income:                              €12,000.00
+  Deductible Expenses:                               €9,000.00
+  Taxable Income:                                    €3,000.00
+  
+  Income Tax:                                          €270.00
+  EFKA Social Security:                              €2,400.00
+  Total Taxes:                                       €2,670.00
+  
+  Net Income:                                        €9,330.00
+  Effective Tax Rate:                                   22.25%
+  
+  VAT to Collect:                                    €2,880.00
+
+
+================================================================================
+COMPARISON TABLE - ALL EXAMPLES
+================================================================================
+
+                          Example 1   Example 2   Example 3   Example 4
+                          ---------   ---------   ---------   ---------
+Gross Income              €15,000     €35,000     €60,000     €12,000
+Deductible Expenses            €0      €5,000     €10,000      €9,000
+Taxable Income            €15,000     €30,000     €50,000      €3,000
+
+Income Tax                 €2,000      €5,900     €13,900        €270
+EFKA Social Security       €3,000      €7,000     €12,000      €2,400
+Total Taxes                €5,000     €12,900     €25,900      €2,670
+
+Net Income                €10,000     €22,100     €34,100      €9,330
+Effective Tax Rate          33.33%      36.86%      43.17%      22.25%
+
+VAT to Collect             €3,600      €8,400     €14,400      €2,880
+
+Monthly Payment              €417      €1,075      €2,158        €223
+Quarterly Payment          €1,250      €3,225      €6,475        €668
+Annual Payment             €5,000     €12,900     €25,900      €2,670
+
+
+================================================================================
+KEY TAKEAWAYS
+================================================================================
+
+1. PROGRESSIVE TAXATION WORKS IN YOUR FAVOR:
+   - Higher income doesn't mean all income is taxed at the highest rate
+   - Only the portion in each bracket is taxed at that bracket's rate
+   - Effective tax rates are typically much lower than marginal rates
+
+2. DEDUCTIBLE EXPENSES PROVIDE SIGNIFICANT TAX SAVINGS:
+   - Example 2: €5,000 expenses saved €2,300 in taxes (46% return)
+   - Example 3: €10,000 expenses saved €3,800 in taxes (38% return)
+   - The higher your tax bracket, the more valuable expense deductions become
+
+3. EFKA IS A FIXED BURDEN ON GROSS INCOME:
+   - Always 20% of gross income, regardless of expenses
+   - Cannot be reduced through deductions
+   - Can be disproportionately high for low-margin businesses (see Example 4)
+   - Plan for this in pricing and cash flow management
+
+4. VAT IS A PASS-THROUGH TAX:
+   - Not part of your personal tax burden
+   - Collected from clients and remitted to authorities
+   - Include VAT in your invoices (add 24% to your fee)
+   - Keep VAT funds separate for remittance
+
+5. PAYMENT FLEXIBILITY:
+   - Choose monthly, quarterly, or annual payments
+   - Monthly payments help with cash flow management
+   - Quarterly is common for many freelancers
+   - Annual requires good financial discipline
+
+6. ACCURATE RECORD-KEEPING IS ESSENTIAL:
+   - Track all business expenses throughout the year
+   - Keep receipts and invoices for at least 5 years
+   - Proper documentation maximizes legitimate deductions
+   - Consider accounting software or professional help
+
+================================================================================
+VERIFICATION INSTRUCTIONS
+================================================================================
+
+All calculations in this document can be manually verified using:
+
+1. Income Tax Brackets (2024):
+   €0-€10,000: 9% | €10,001-€20,000: 22% | €20,001-€30,000: 28%
+   €30,001-€40,000: 36% | €40,001+: 44%
+
+2. VAT Rate: 24%
+
+3. EFKA Social Security: 20% (13.33% + 6.67%)
+
+To verify any calculation:
+- Start with gross income
+- Subtract deductible expenses to get taxable income
+- Apply progressive tax brackets to taxable income
+- Calculate EFKA on gross income (not taxable income)
+- Calculate VAT on gross income
+- Sum income tax + EFKA for total taxes
+- Subtract total taxes from gross income for net income
+
+================================================================================
+DISCLAIMER
+================================================================================
+
+These examples are for educational purposes and reflect Greek tax law as
+generally applied in 2024. Tax situations can vary based on:
+
+- Specific professional categories
+- Regional tax differences
+- Special tax regimes or exemptions
+- Individual circumstances
+- Annual tax law changes
+
+Always consult with a qualified Greek tax advisor or accountant (Logistis)
+for personalized advice and to ensure compliance with current tax regulations.
+
+Official Greek tax authority: www.aade.gr (Independent Authority for Public 
+Revenue - AADE)
+
+================================================================================
+END OF SAMPLE CALCULATIONS
+================================================================================
