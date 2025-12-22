@@ -14,6 +14,8 @@ All monetary values use floats and calculations are accurate to 2 decimal places
 __author__ = "Tax Calculator"
 __version__ = "1.0.0"
 
+from typing import Dict, List, Tuple, Union, Literal
+
 # ============================================================================
 # TAX CONSTANTS - Greek Tax Law 2024
 # ============================================================================
@@ -49,7 +51,7 @@ VALID_FREQUENCIES = ['monthly', 'quarterly', 'annual']
 # CORE TAX CALCULATION FUNCTIONS
 # ============================================================================
 
-def calculate_taxable_income(gross_income, deductible_expenses):
+def calculate_taxable_income(gross_income: float, deductible_expenses: float) -> float:
     """
     Calculate taxable income after deducting eligible expenses.
     
@@ -86,7 +88,7 @@ def calculate_taxable_income(gross_income, deductible_expenses):
     return round(taxable, 2)
 
 
-def calculate_income_tax(taxable_income):
+def calculate_income_tax(taxable_income: float) -> Dict[str, Union[float, List[Dict[str, Union[float, str]]]]]:
     """
     Calculate progressive income tax based on Greek tax brackets for 2024.
     
@@ -182,7 +184,7 @@ def calculate_income_tax(taxable_income):
     }
 
 
-def calculate_vat(gross_income):
+def calculate_vat(gross_income: float) -> Dict[str, float]:
     """
     Calculate Value Added Tax (VAT) for Greek freelancers.
     
@@ -224,7 +226,7 @@ def calculate_vat(gross_income):
     }
 
 
-def calculate_social_security(gross_income):
+def calculate_social_security(gross_income: float) -> Dict[str, float]:
     """
     Calculate EFKA social security contributions for Greek freelancers.
     
@@ -282,7 +284,7 @@ def calculate_social_security(gross_income):
     }
 
 
-def calculate_all_taxes(gross_income, deductible_expenses):
+def calculate_all_taxes(gross_income: float, deductible_expenses: float) -> Dict[str, Union[float, Dict[str, Union[float, List[Dict[str, Union[float, str]]]]]]]:
     """
     Master function to calculate all tax components for Greek freelancers.
     
@@ -398,7 +400,7 @@ def calculate_all_taxes(gross_income, deductible_expenses):
     }
 
 
-def calculate_payment_schedule(annual_tax, frequency='monthly'):
+def calculate_payment_schedule(annual_tax: float, frequency: str = 'monthly') -> Dict[str, Union[float, str, int, List[Dict[str, Union[int, float]]]]]:
     """
     Calculate payment schedule breakdown for tax payments.
     
